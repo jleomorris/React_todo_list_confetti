@@ -59,11 +59,13 @@ function App() {
   }
 
   function generateConfetti() {
+    document.querySelector("#my-canvas").style.zIndex = 3;    
     let confettiSettings = { target: 'my-canvas', max : 1000};
     let confetti = new ConfettiGenerator(confettiSettings);
     confetti.render();
-
+    
     setTimeout(function(){
+      document.querySelector("#my-canvas").style.zIndex = 1;    
       confetti.clear();
     }, 4000);
   }
