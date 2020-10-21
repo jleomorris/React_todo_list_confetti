@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React_todo_list_confetti/static/css/main.90ac84c7.chunk.css",
-    "main.js": "/React_todo_list_confetti/static/js/main.0f0b3975.chunk.js",
-    "main.js.map": "/React_todo_list_confetti/static/js/main.0f0b3975.chunk.js.map",
+    "main.js": "/React_todo_list_confetti/static/js/main.154ea150.chunk.js",
+    "main.js.map": "/React_todo_list_confetti/static/js/main.154ea150.chunk.js.map",
     "runtime-main.js": "/React_todo_list_confetti/static/js/runtime-main.bd820e1c.js",
     "runtime-main.js.map": "/React_todo_list_confetti/static/js/runtime-main.bd820e1c.js.map",
     "static/css/2.614afd85.chunk.css": "/React_todo_list_confetti/static/css/2.614afd85.chunk.css",
     "static/js/2.90db6f4e.chunk.js": "/React_todo_list_confetti/static/js/2.90db6f4e.chunk.js",
     "static/js/2.90db6f4e.chunk.js.map": "/React_todo_list_confetti/static/js/2.90db6f4e.chunk.js.map",
     "index.html": "/React_todo_list_confetti/index.html",
-    "precache-manifest.081b6080a6766c73dd5c2eb03ad591d1.js": "/React_todo_list_confetti/precache-manifest.081b6080a6766c73dd5c2eb03ad591d1.js",
+    "precache-manifest.0039c92856880e8812d6c00a2e875bb9.js": "/React_todo_list_confetti/precache-manifest.0039c92856880e8812d6c00a2e875bb9.js",
     "service-worker.js": "/React_todo_list_confetti/service-worker.js",
     "static/css/2.614afd85.chunk.css.map": "/React_todo_list_confetti/static/css/2.614afd85.chunk.css.map",
     "static/css/main.90ac84c7.chunk.css.map": "/React_todo_list_confetti/static/css/main.90ac84c7.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.614afd85.chunk.css",
     "static/js/2.90db6f4e.chunk.js",
     "static/css/main.90ac84c7.chunk.css",
-    "static/js/main.0f0b3975.chunk.js"
+    "static/js/main.154ea150.chunk.js"
   ]
 }
