@@ -23,10 +23,6 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const taskNameRef = useRef();
 
-  function setBackgroundRandom(){
-    document.getElementsByClassName("container-fluid")[0].style.background = `url(${coolImages.one(1080, 1920)})`;
-  }
-
   // Render stored tasks if they exist
   useEffect(() => {
     const storedTasks = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
@@ -35,8 +31,6 @@ function App() {
       allSelected = savedAllSelected;
     } 
     if (storedTasks) setTasks(storedTasks);
-
-    setBackgroundRandom(); 
 
   }, []) // Using [] means the above only gets trigerred on initial render
 
@@ -95,7 +89,9 @@ function App() {
 
   let containerStyle = {
     height: '100%',
-    minHeight: '100vh'
+    minHeight: '100vh', 
+    background: `url(${coolImages.one(1080, 1920)})`,
+    backgroundPosition: 'cover', 
   }
 
   function handleKeyPress(event) {
