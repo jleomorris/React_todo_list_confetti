@@ -24,7 +24,7 @@ function App() {
   const taskNameRef = useRef();
 
   function setBackgroundRandom(){
-    document.getElementsByClassName("container-fluid")[0].style.background = `url(${coolImages.one(1080, 1920)})`;
+    document.querySelectorAll(".main-container")[0].style.background = `url(${coolImages.one(1080, 1920)})`;
   }
 
   // Render stored tasks if they exist
@@ -91,12 +91,6 @@ function App() {
     const allTasks = [...deletedTasks, ...tasks]
     setTasks(allTasks);
     deletedTasks = [];
-  }
-
-  let containerStyle = {
-    height: '100%',
-    minHeight: '100vh',
-    backgroundSize: 'cover !important'
   }
 
   function handleKeyPress(event) {
@@ -186,7 +180,7 @@ function App() {
   return (
     <>
     <canvas id="my-canvas"></canvas>
-    <Container fluid className="d-flex justify-content-center align-items-center" style = { containerStyle }>
+    <Container fluid className="d-flex justify-content-center align-items-center main-container">
       <div className="background-cover"></div>
       <Row className="w-100 d-flex justify-content-center">
       <Card className="to-do-list col-md-4 p-0 border-0" style = {{ margin: '5%' }}>
