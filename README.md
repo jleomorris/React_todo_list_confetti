@@ -18,7 +18,8 @@ to ensure design doesn't become stale.</p>
 ## Installation
 <ul>
   <li>Download/fork/clone this repositorys code</li>
-  <li>In the terminal type 'npm run start'</li>
+  <li>npm install</li>
+  <li>npm run start</li>
   <li>The app will automatically be served to a localhost port and will open in a browser</li>
 </ul>
 
